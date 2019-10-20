@@ -16,12 +16,12 @@ inside the folder with the setup.py file to properly install python packages
 # Pinouts
 Raspberry Pi Pinout:
 
-***INSERT RASPBERRY PI PINOUT PIC
+![Raspberry Pi Pinout](https://github.com/NoelleTemple/roscore_move/blob/master/Resources/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated.png)
+
 
 The servo I use: Tower Pro Micro Servo 9g SG90
 Note that this servo takes duty cycle inputs between 2 and 13 with a frequency of 50 Hz.  
 
-![Servo Pinout](https://github.com/NoelleTemple/roscore_move/blob/master/Resources/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated.png)
 
 Pinout:
 Vin -> pin 2
