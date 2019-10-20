@@ -25,19 +25,19 @@ Note that this servo takes duty cycle inputs between 2 and 13 with a frequency o
 ![Servo Motor Pinout](https://github.com/NoelleTemple/roscore_move/blob/master/Resources/Servo-Motor-Wires.png)
 
 Pinout:
-Vin -> pin 2
-Ground -> pin 39
-Control -> pin 33
+* Vin -> pin 2
+* Ground -> pin 39
+* Control -> pin 33
 
 Sensor used: VL6180X
 
 ![Sensor Pinout](https://github.com/NoelleTemple/roscore_move/blob/master/Resources/Sensor%20Pinout.jpg)
 
 Pinout:
-Vin -> pin 1
-Ground -> pin 9
-SDA -> pin 3
-SCL -> pin 5
+* Vin -> pin 1
+* Ground -> pin 9
+* SDA -> pin 3
+* SCL -> pin 5
 
 # Setup Roscore
 
