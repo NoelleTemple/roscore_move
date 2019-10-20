@@ -82,8 +82,11 @@ cp listener.py ~/catkin_ws/src/<name of package</src/
 cd ~/catkin_ws/src/<name of package>/src/
 chmod +x listener.py
 chmod +x talker.py
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
 ```
-
+# Running the Scripts
 Each of these commands will need to be run in 3 different windows:
 ```
 roscore
