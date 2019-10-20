@@ -22,6 +22,7 @@ Raspberry Pi Pinout:
 The servo I use: Tower Pro Micro Servo 9g SG90
 Note that this servo takes duty cycle inputs between 2 and 13 with a frequency of 50 Hz.  
 
+![Servo Motor Pinout](https://github.com/NoelleTemple/roscore_move/blob/master/Resources/Servo-Motor-Wires.png)
 
 Pinout:
 Vin -> pin 2
