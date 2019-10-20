@@ -31,7 +31,7 @@ Control -> pin 33
 
 Sensor used: VL6180X
 
-***INSERT SENSOR PINOUT PIC
+![Sensor Pinout](https://github.com/NoelleTemple/roscore_move/blob/master/Resources/Sensor%20Pinout.jpg)
 
 Pinout:
 Vin -> pin 1
