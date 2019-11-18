@@ -14,6 +14,13 @@ sudo pip install -e .
 ```
 inside the folder with the setup.py file to properly install python packages
 
+If you get a locked error
+```
+cd /var/lib/dpkg/
+sudo rm lock
+sudo rm lock-frontend
+```
+
 # Pinouts
 Raspberry Pi Pinout:
 
