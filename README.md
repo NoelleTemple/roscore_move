@@ -4,7 +4,8 @@ Please note: there is a delay between publishing and the servo moving.
 Kind of a major delay.
 
 # Dependencies
-1. rpi sensors and its dependencies: https://github.com/bivab/smbus-cffi/blob/master/README.rst
+1. rpi sensors:https://github.com/altosz/rpisensors
+3. and its dependencies: https://github.com/bivab/smbus-cffi/blob/master/README.rst
 2. servo_control: https://github.com/NoelleTemple/servo_control
 
 Use
