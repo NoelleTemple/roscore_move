@@ -64,6 +64,28 @@ cd ~/ros-underlay
 catkin_make
 ```
 
+If having issues, check to see if roscore is already running:
+```
+roscore
+```
+If this works, you should get an output like this:
+```
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+
+auto-starting new master
+process[master]: started with pid [29233]
+ROS_MASTER_URI=http://ubuntu:11311/
+```
+
+No need to install ros if you already have it.
+
 # Create Workspace
 
 ```
