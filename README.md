@@ -104,6 +104,16 @@ catkin_create_pkg <name of package> std_msgs rospy
 cd <name of package>/src
 ```
 # Create Subscriber and Listener
+```
+cd ~/catkin_ws/src/
+git clone <this repo>
+chmod +x listener.py
+chmod +x talker.py
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+```
+
 ``` 
 cd ~/
 git clone https://github.com/NoelleTemple/roscore_move.git
