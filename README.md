@@ -100,9 +100,10 @@ catkin_make
 
 ```
 cd ~/catkin_ws/src
-catkin_create_pkg <name of package> std_msgs rospy 
-cd <name of package>/src
+catkin_create_pkg move std_msgs rospy 
+cd move/src
 ```
+
 # Create Subscriber and Listener
 ```
 cd ~/catkin_ws/src/
@@ -118,15 +119,17 @@ source devel/setup.bash
 cd ~/
 git clone https://github.com/NoelleTemple/roscore_move.git
 cd roscore_move
-cp talker.py ~/catkin_ws/src/<name of package>/src/
-cp listener.py ~/catkin_ws/src/<name of package</src/
-cd ~/catkin_ws/src/<name of package>/src/
+cp talker.py ~/catkin_ws/src/move/src/
+cp listener.py ~/catkin_ws/src/move/src/
+cd ~/catkin_ws/src/move/src/
 chmod +x listener.py
 chmod +x talker.py
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
 ```
+Where "move" is the name of the package.
+
 # Running the Scripts
 Each of these commands will need to be run in 3 different windows:
 ```
@@ -134,12 +137,14 @@ roscore
 ```
 
 ```
-python listener.py
+rosrun move listener.py
 ```
 
 ```
-python talker.py
+rosrun move talker.py
 ```
+
+Where "move" is the name of the package.
 
 The servo has a delay, but will move based on the distance an object is from the sensor.  
 
