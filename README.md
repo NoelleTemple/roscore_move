@@ -64,7 +64,7 @@ cd ~/ros-underlay
 catkin_make
 ```
 
-If having issues, check to see if roscore is already running:
+If having issues, check to see if roscore is already available:
 ```
 roscore
 ```
